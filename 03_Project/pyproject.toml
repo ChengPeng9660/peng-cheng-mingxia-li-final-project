@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "polymarket-ai-business"
+version = "0.1.0"
+description = "AI-enhanced business event forecasting prototype built around Polymarket market data."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  { name = "Cheng Peng" },
+  { name = "Mingxia Li" }
+]
+dependencies = []
+
+[project.scripts]
+polymarket-business = "polymarket_ai_business.pipeline:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
