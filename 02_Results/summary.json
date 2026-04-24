@@ -1,0 +1,610 @@
+{
+  "metadata": {
+    "generated_at_utc": "2026-04-23T12:43:39.321702+00:00",
+    "source": "fixture",
+    "source_metadata": {
+      "source_note": "Synthetic Polymarket-style fixture for offline demo runs. These values are illustrative rather than authentic market prices.",
+      "generated_at": "2026-04-23T10:00:00Z"
+    },
+    "news": {
+      "source_mode": "fixture",
+      "selected_markets": 4,
+      "live_successes": 0,
+      "fixture_hits": 4
+    }
+  },
+  "metrics": {
+    "total_markets": 20,
+    "relevant_markets": 15,
+    "active_relevant_markets": 9,
+    "resolved_relevant_markets": 6,
+    "share_relevant": 0.75,
+    "avg_active_probability": 0.5567,
+    "avg_active_abs_1d_move": 0.0211,
+    "avg_active_abs_1w_move": 0.0844,
+    "avg_relevance_score": 0.7711,
+    "resolved_directional_accuracy": 1.0,
+    "resolved_brier_score": 0.1156
+  },
+  "category_counts": [
+    {
+      "category": "Macro / Regulation",
+      "count": 8
+    },
+    {
+      "category": "Business / Finance",
+      "count": 6
+    },
+    {
+      "category": "AI / Technology",
+      "count": 1
+    }
+  ],
+  "top_relevant_markets": [
+    {
+      "question": "Will OpenAI publicly launch GPT-5 before October 1, 2026?",
+      "category": "AI / Technology",
+      "relevance_score": 0.99,
+      "probability": 0.71,
+      "focus_outcome": "Yes",
+      "one_day_price_change": 0.04,
+      "one_week_price_change": 0.14,
+      "volume_24h": 360000.0,
+      "end_date": "2026-10-01T00:00:00Z",
+      "summary": "Will OpenAI publicly launch GPT-5 before October 1, 2026? is classified as AI / Technology. The market implies 71.0% for Yes, with moves of +4.0pp over 1 day and +14.0pp over 1 week. It matters for business research because it captures technology adoption, AI competition, or semiconductor demand; matched cues include ai, openai, gpt.",
+      "url": "https://polymarket.com/event/openai-gpt-5-before-oct-2026"
+    },
+    {
+      "question": "Will the Fed cut rates by September 2026?",
+      "category": "Macro / Regulation",
+      "relevance_score": 0.99,
+      "probability": 0.57,
+      "focus_outcome": "Yes",
+      "one_day_price_change": -0.01,
+      "one_week_price_change": 0.08,
+      "volume_24h": 280000.0,
+      "end_date": "2026-09-16T18:00:00Z",
+      "summary": "Will the Fed cut rates by September 2026? is classified as Macro / Regulation. The market implies 57.0% for Yes, with moves of -1.0pp over 1 day and +8.0pp over 1 week. It matters for business research because it captures policy, inflation, or regulatory risk for firms and investors; matched cues include fed, rate cut, rates.",
+      "url": "https://polymarket.com/event/fed-cut-sept-2026"
+    },
+    {
+      "question": "Will the FTC block a major Big Tech acquisition in 2026?",
+      "category": "Macro / Regulation",
+      "relevance_score": 0.99,
+      "probability": 0.52,
+      "focus_outcome": "Yes",
+      "one_day_price_change": 0.01,
+      "one_week_price_change": 0.05,
+      "volume_24h": 99000.0,
+      "end_date": "2026-12-31T21:00:00Z",
+      "summary": "Will the FTC block a major Big Tech acquisition in 2026? is classified as Macro / Regulation. The market implies 52.0% for Yes, with moves of +1.0pp over 1 day and +5.0pp over 1 week. It matters for business research because it captures policy, inflation, or regulatory risk for firms and investors; matched cues include doj, ftc, regulation.",
+      "url": "https://polymarket.com/event/ftc-block-big-tech-acquisition-2026"
+    },
+    {
+      "question": "Will the U.S. expand AI chip export controls before the end of 2026?",
+      "category": "Macro / Regulation",
+      "relevance_score": 0.75,
+      "probability": 0.62,
+      "focus_outcome": "Yes",
+      "one_day_price_change": 0.01,
+      "one_week_price_change": 0.09,
+      "volume_24h": 140000.0,
+      "end_date": "2026-12-31T21:00:00Z",
+      "summary": "Will the U.S. expand AI chip export controls before the end of 2026? is classified as Macro / Regulation. The market implies 62.0% for Yes, with moves of +1.0pp over 1 day and +9.0pp over 1 week. It matters for business research because it captures policy, inflation, or regulatory risk for firms and investors; matched cues include regulation, export controls.",
+      "url": "https://polymarket.com/event/us-ai-chip-export-controls-2026"
+    },
+    {
+      "question": "Will Apple reach a $4 trillion market cap by December 31, 2026?",
+      "category": "Business / Finance",
+      "relevance_score": 0.688,
+      "probability": 0.46,
+      "focus_outcome": "Yes",
+      "one_day_price_change": 0.02,
+      "one_week_price_change": 0.06,
+      "volume_24h": 190000.0,
+      "end_date": "2026-12-31T21:00:00Z",
+      "summary": "Will Apple reach a $4 trillion market cap by December 31, 2026? is classified as Business / Finance. The market implies 46.0% for Yes, with moves of +2.0pp over 1 day and +6.0pp over 1 week. It matters for business research because it captures firm value, investor sentiment, or operating performance; matched cues include market cap, apple.",
+      "url": "https://polymarket.com/event/apple-4t-market-cap-2026"
+    },
+    {
+      "question": "Will U.S. CPI inflation fall below 2.5% by December 2026?",
+      "category": "Macro / Regulation",
+      "relevance_score": 0.688,
+      "probability": 0.61,
+      "focus_outcome": "Yes",
+      "one_day_price_change": 0.0,
+      "one_week_price_change": 0.04,
+      "volume_24h": 87000.0,
+      "end_date": "2026-12-15T13:00:00Z",
+      "summary": "Will U.S. CPI inflation fall below 2.5% by December 2026? is classified as Macro / Regulation. The market implies 61.0% for Yes, with moves of +0.0pp over 1 day and +4.0pp over 1 week. It matters for business research because it captures policy, inflation, or regulatory risk for firms and investors; matched cues include inflation, cpi.",
+      "url": "https://polymarket.com/event/cpi-below-2-5-dec-2026"
+    },
+    {
+      "question": "Will Nvidia close above $150 on June 30, 2026?",
+      "category": "Business / Finance",
+      "relevance_score": 0.562,
+      "probability": 0.64,
+      "focus_outcome": "Yes",
+      "one_day_price_change": 0.03,
+      "one_week_price_change": 0.11,
+      "volume_24h": 325000.0,
+      "end_date": "2026-06-30T20:00:00Z",
+      "summary": "Will Nvidia close above $150 on June 30, 2026? is classified as Business / Finance. The market implies 64.0% for Yes, with moves of +3.0pp over 1 day and +11.0pp over 1 week. It matters for business research because it captures firm value, investor sentiment, or operating performance; matched cues include stock, nvidia.",
+      "url": "https://polymarket.com/event/nvidia-above-150-june-30-2026"
+    },
+    {
+      "question": "Will Tesla deliver more than 2 million vehicles in 2026?",
+      "category": "Business / Finance",
+      "relevance_score": 0.562,
+      "probability": 0.39,
+      "focus_outcome": "Yes",
+      "one_day_price_change": -0.02,
+      "one_week_price_change": -0.07,
+      "volume_24h": 112000.0,
+      "end_date": "2026-12-31T21:00:00Z",
+      "summary": "Will Tesla deliver more than 2 million vehicles in 2026? is classified as Business / Finance. The market implies 39.0% for Yes, with moves of -2.0pp over 1 day and -7.0pp over 1 week. It matters for business research because it captures firm value, investor sentiment, or operating performance; matched cues include deliveries, tesla.",
+      "url": "https://polymarket.com/event/tesla-deliveries-over-2m-2026"
+    },
+    {
+      "question": "Will U.S. spot Bitcoin ETF net inflows exceed $50B in 2026?",
+      "category": "Business / Finance",
+      "relevance_score": 0.438,
+      "probability": 0.49,
+      "focus_outcome": "Yes",
+      "one_day_price_change": 0.05,
+      "one_week_price_change": 0.12,
+      "volume_24h": 156000.0,
+      "end_date": "2026-12-31T21:00:00Z",
+      "summary": "Will U.S. spot Bitcoin ETF net inflows exceed $50B in 2026? is classified as Business / Finance. The market implies 49.0% for Yes, with moves of +5.0pp over 1 day and +12.0pp over 1 week. It matters for business research because it captures firm value, investor sentiment, or operating performance; matched cues include etf, bitcoin.",
+      "url": "https://polymarket.com/event/bitcoin-etf-inflows-over-50b-2026"
+    }
+  ],
+  "top_movers": [
+    {
+      "question": "Will OpenAI publicly launch GPT-5 before October 1, 2026?",
+      "category": "AI / Technology",
+      "relevance_score": 0.99,
+      "probability": 0.71,
+      "focus_outcome": "Yes",
+      "one_day_price_change": 0.04,
+      "one_week_price_change": 0.14,
+      "volume_24h": 360000.0,
+      "end_date": "2026-10-01T00:00:00Z",
+      "summary": "Will OpenAI publicly launch GPT-5 before October 1, 2026? is classified as AI / Technology. The market implies 71.0% for Yes, with moves of +4.0pp over 1 day and +14.0pp over 1 week. It matters for business research because it captures technology adoption, AI competition, or semiconductor demand; matched cues include ai, openai, gpt.",
+      "url": "https://polymarket.com/event/openai-gpt-5-before-oct-2026"
+    },
+    {
+      "question": "Will U.S. spot Bitcoin ETF net inflows exceed $50B in 2026?",
+      "category": "Business / Finance",
+      "relevance_score": 0.438,
+      "probability": 0.49,
+      "focus_outcome": "Yes",
+      "one_day_price_change": 0.05,
+      "one_week_price_change": 0.12,
+      "volume_24h": 156000.0,
+      "end_date": "2026-12-31T21:00:00Z",
+      "summary": "Will U.S. spot Bitcoin ETF net inflows exceed $50B in 2026? is classified as Business / Finance. The market implies 49.0% for Yes, with moves of +5.0pp over 1 day and +12.0pp over 1 week. It matters for business research because it captures firm value, investor sentiment, or operating performance; matched cues include etf, bitcoin.",
+      "url": "https://polymarket.com/event/bitcoin-etf-inflows-over-50b-2026"
+    },
+    {
+      "question": "Will Nvidia close above $150 on June 30, 2026?",
+      "category": "Business / Finance",
+      "relevance_score": 0.562,
+      "probability": 0.64,
+      "focus_outcome": "Yes",
+      "one_day_price_change": 0.03,
+      "one_week_price_change": 0.11,
+      "volume_24h": 325000.0,
+      "end_date": "2026-06-30T20:00:00Z",
+      "summary": "Will Nvidia close above $150 on June 30, 2026? is classified as Business / Finance. The market implies 64.0% for Yes, with moves of +3.0pp over 1 day and +11.0pp over 1 week. It matters for business research because it captures firm value, investor sentiment, or operating performance; matched cues include stock, nvidia.",
+      "url": "https://polymarket.com/event/nvidia-above-150-june-30-2026"
+    },
+    {
+      "question": "Will the U.S. expand AI chip export controls before the end of 2026?",
+      "category": "Macro / Regulation",
+      "relevance_score": 0.75,
+      "probability": 0.62,
+      "focus_outcome": "Yes",
+      "one_day_price_change": 0.01,
+      "one_week_price_change": 0.09,
+      "volume_24h": 140000.0,
+      "end_date": "2026-12-31T21:00:00Z",
+      "summary": "Will the U.S. expand AI chip export controls before the end of 2026? is classified as Macro / Regulation. The market implies 62.0% for Yes, with moves of +1.0pp over 1 day and +9.0pp over 1 week. It matters for business research because it captures policy, inflation, or regulatory risk for firms and investors; matched cues include regulation, export controls.",
+      "url": "https://polymarket.com/event/us-ai-chip-export-controls-2026"
+    },
+    {
+      "question": "Will the Fed cut rates by September 2026?",
+      "category": "Macro / Regulation",
+      "relevance_score": 0.99,
+      "probability": 0.57,
+      "focus_outcome": "Yes",
+      "one_day_price_change": -0.01,
+      "one_week_price_change": 0.08,
+      "volume_24h": 280000.0,
+      "end_date": "2026-09-16T18:00:00Z",
+      "summary": "Will the Fed cut rates by September 2026? is classified as Macro / Regulation. The market implies 57.0% for Yes, with moves of -1.0pp over 1 day and +8.0pp over 1 week. It matters for business research because it captures policy, inflation, or regulatory risk for firms and investors; matched cues include fed, rate cut, rates.",
+      "url": "https://polymarket.com/event/fed-cut-sept-2026"
+    },
+    {
+      "question": "Will Tesla deliver more than 2 million vehicles in 2026?",
+      "category": "Business / Finance",
+      "relevance_score": 0.562,
+      "probability": 0.39,
+      "focus_outcome": "Yes",
+      "one_day_price_change": -0.02,
+      "one_week_price_change": -0.07,
+      "volume_24h": 112000.0,
+      "end_date": "2026-12-31T21:00:00Z",
+      "summary": "Will Tesla deliver more than 2 million vehicles in 2026? is classified as Business / Finance. The market implies 39.0% for Yes, with moves of -2.0pp over 1 day and -7.0pp over 1 week. It matters for business research because it captures firm value, investor sentiment, or operating performance; matched cues include deliveries, tesla.",
+      "url": "https://polymarket.com/event/tesla-deliveries-over-2m-2026"
+    },
+    {
+      "question": "Will Apple reach a $4 trillion market cap by December 31, 2026?",
+      "category": "Business / Finance",
+      "relevance_score": 0.688,
+      "probability": 0.46,
+      "focus_outcome": "Yes",
+      "one_day_price_change": 0.02,
+      "one_week_price_change": 0.06,
+      "volume_24h": 190000.0,
+      "end_date": "2026-12-31T21:00:00Z",
+      "summary": "Will Apple reach a $4 trillion market cap by December 31, 2026? is classified as Business / Finance. The market implies 46.0% for Yes, with moves of +2.0pp over 1 day and +6.0pp over 1 week. It matters for business research because it captures firm value, investor sentiment, or operating performance; matched cues include market cap, apple.",
+      "url": "https://polymarket.com/event/apple-4t-market-cap-2026"
+    },
+    {
+      "question": "Will the FTC block a major Big Tech acquisition in 2026?",
+      "category": "Macro / Regulation",
+      "relevance_score": 0.99,
+      "probability": 0.52,
+      "focus_outcome": "Yes",
+      "one_day_price_change": 0.01,
+      "one_week_price_change": 0.05,
+      "volume_24h": 99000.0,
+      "end_date": "2026-12-31T21:00:00Z",
+      "summary": "Will the FTC block a major Big Tech acquisition in 2026? is classified as Macro / Regulation. The market implies 52.0% for Yes, with moves of +1.0pp over 1 day and +5.0pp over 1 week. It matters for business research because it captures policy, inflation, or regulatory risk for firms and investors; matched cues include doj, ftc, regulation.",
+      "url": "https://polymarket.com/event/ftc-block-big-tech-acquisition-2026"
+    }
+  ],
+  "upcoming_events": [
+    {
+      "question": "Will Nvidia close above $150 on June 30, 2026?",
+      "category": "Business / Finance",
+      "relevance_score": 0.562,
+      "probability": 0.64,
+      "focus_outcome": "Yes",
+      "one_day_price_change": 0.03,
+      "one_week_price_change": 0.11,
+      "volume_24h": 325000.0,
+      "end_date": "2026-06-30T20:00:00Z",
+      "summary": "Will Nvidia close above $150 on June 30, 2026? is classified as Business / Finance. The market implies 64.0% for Yes, with moves of +3.0pp over 1 day and +11.0pp over 1 week. It matters for business research because it captures firm value, investor sentiment, or operating performance; matched cues include stock, nvidia.",
+      "url": "https://polymarket.com/event/nvidia-above-150-june-30-2026"
+    },
+    {
+      "question": "Will the Fed cut rates by September 2026?",
+      "category": "Macro / Regulation",
+      "relevance_score": 0.99,
+      "probability": 0.57,
+      "focus_outcome": "Yes",
+      "one_day_price_change": -0.01,
+      "one_week_price_change": 0.08,
+      "volume_24h": 280000.0,
+      "end_date": "2026-09-16T18:00:00Z",
+      "summary": "Will the Fed cut rates by September 2026? is classified as Macro / Regulation. The market implies 57.0% for Yes, with moves of -1.0pp over 1 day and +8.0pp over 1 week. It matters for business research because it captures policy, inflation, or regulatory risk for firms and investors; matched cues include fed, rate cut, rates.",
+      "url": "https://polymarket.com/event/fed-cut-sept-2026"
+    },
+    {
+      "question": "Will OpenAI publicly launch GPT-5 before October 1, 2026?",
+      "category": "AI / Technology",
+      "relevance_score": 0.99,
+      "probability": 0.71,
+      "focus_outcome": "Yes",
+      "one_day_price_change": 0.04,
+      "one_week_price_change": 0.14,
+      "volume_24h": 360000.0,
+      "end_date": "2026-10-01T00:00:00Z",
+      "summary": "Will OpenAI publicly launch GPT-5 before October 1, 2026? is classified as AI / Technology. The market implies 71.0% for Yes, with moves of +4.0pp over 1 day and +14.0pp over 1 week. It matters for business research because it captures technology adoption, AI competition, or semiconductor demand; matched cues include ai, openai, gpt.",
+      "url": "https://polymarket.com/event/openai-gpt-5-before-oct-2026"
+    },
+    {
+      "question": "Will U.S. CPI inflation fall below 2.5% by December 2026?",
+      "category": "Macro / Regulation",
+      "relevance_score": 0.688,
+      "probability": 0.61,
+      "focus_outcome": "Yes",
+      "one_day_price_change": 0.0,
+      "one_week_price_change": 0.04,
+      "volume_24h": 87000.0,
+      "end_date": "2026-12-15T13:00:00Z",
+      "summary": "Will U.S. CPI inflation fall below 2.5% by December 2026? is classified as Macro / Regulation. The market implies 61.0% for Yes, with moves of +0.0pp over 1 day and +4.0pp over 1 week. It matters for business research because it captures policy, inflation, or regulatory risk for firms and investors; matched cues include inflation, cpi.",
+      "url": "https://polymarket.com/event/cpi-below-2-5-dec-2026"
+    },
+    {
+      "question": "Will U.S. spot Bitcoin ETF net inflows exceed $50B in 2026?",
+      "category": "Business / Finance",
+      "relevance_score": 0.438,
+      "probability": 0.49,
+      "focus_outcome": "Yes",
+      "one_day_price_change": 0.05,
+      "one_week_price_change": 0.12,
+      "volume_24h": 156000.0,
+      "end_date": "2026-12-31T21:00:00Z",
+      "summary": "Will U.S. spot Bitcoin ETF net inflows exceed $50B in 2026? is classified as Business / Finance. The market implies 49.0% for Yes, with moves of +5.0pp over 1 day and +12.0pp over 1 week. It matters for business research because it captures firm value, investor sentiment, or operating performance; matched cues include etf, bitcoin.",
+      "url": "https://polymarket.com/event/bitcoin-etf-inflows-over-50b-2026"
+    },
+    {
+      "question": "Will the FTC block a major Big Tech acquisition in 2026?",
+      "category": "Macro / Regulation",
+      "relevance_score": 0.99,
+      "probability": 0.52,
+      "focus_outcome": "Yes",
+      "one_day_price_change": 0.01,
+      "one_week_price_change": 0.05,
+      "volume_24h": 99000.0,
+      "end_date": "2026-12-31T21:00:00Z",
+      "summary": "Will the FTC block a major Big Tech acquisition in 2026? is classified as Macro / Regulation. The market implies 52.0% for Yes, with moves of +1.0pp over 1 day and +5.0pp over 1 week. It matters for business research because it captures policy, inflation, or regulatory risk for firms and investors; matched cues include doj, ftc, regulation.",
+      "url": "https://polymarket.com/event/ftc-block-big-tech-acquisition-2026"
+    },
+    {
+      "question": "Will the U.S. expand AI chip export controls before the end of 2026?",
+      "category": "Macro / Regulation",
+      "relevance_score": 0.75,
+      "probability": 0.62,
+      "focus_outcome": "Yes",
+      "one_day_price_change": 0.01,
+      "one_week_price_change": 0.09,
+      "volume_24h": 140000.0,
+      "end_date": "2026-12-31T21:00:00Z",
+      "summary": "Will the U.S. expand AI chip export controls before the end of 2026? is classified as Macro / Regulation. The market implies 62.0% for Yes, with moves of +1.0pp over 1 day and +9.0pp over 1 week. It matters for business research because it captures policy, inflation, or regulatory risk for firms and investors; matched cues include regulation, export controls.",
+      "url": "https://polymarket.com/event/us-ai-chip-export-controls-2026"
+    },
+    {
+      "question": "Will Tesla deliver more than 2 million vehicles in 2026?",
+      "category": "Business / Finance",
+      "relevance_score": 0.562,
+      "probability": 0.39,
+      "focus_outcome": "Yes",
+      "one_day_price_change": -0.02,
+      "one_week_price_change": -0.07,
+      "volume_24h": 112000.0,
+      "end_date": "2026-12-31T21:00:00Z",
+      "summary": "Will Tesla deliver more than 2 million vehicles in 2026? is classified as Business / Finance. The market implies 39.0% for Yes, with moves of -2.0pp over 1 day and -7.0pp over 1 week. It matters for business research because it captures firm value, investor sentiment, or operating performance; matched cues include deliveries, tesla.",
+      "url": "https://polymarket.com/event/tesla-deliveries-over-2m-2026"
+    }
+  ],
+  "resolved_evaluation": {
+    "eligible_markets": 6,
+    "directional_accuracy": 1.0,
+    "brier_score": 0.1156,
+    "calibration": [
+      {
+        "bucket": "0.2-0.4",
+        "count": 1,
+        "avg_predicted_yes_prob": 0.35,
+        "realized_yes_rate": 0
+      },
+      {
+        "bucket": "0.4-0.6",
+        "count": 2,
+        "avg_predicted_yes_prob": 0.43,
+        "realized_yes_rate": 0
+      },
+      {
+        "bucket": "0.6-0.8",
+        "count": 2,
+        "avg_predicted_yes_prob": 0.7,
+        "realized_yes_rate": 1
+      },
+      {
+        "bucket": "0.8-1.0",
+        "count": 1,
+        "avg_predicted_yes_prob": 0.86,
+        "realized_yes_rate": 1
+      }
+    ],
+    "sample": [
+      {
+        "question": "Did the Fed cut rates by September 2025?",
+        "predicted_yes_prob": 0.73,
+        "realized_yes": 1,
+        "category": "Macro / Regulation"
+      },
+      {
+        "question": "Did Nvidia annual revenue exceed $50B in FY2025?",
+        "predicted_yes_prob": 0.86,
+        "realized_yes": 1,
+        "category": "Business / Finance"
+      },
+      {
+        "question": "Did Microsoft close above $500 by December 31, 2025?",
+        "predicted_yes_prob": 0.44,
+        "realized_yes": 0,
+        "category": "Business / Finance"
+      },
+      {
+        "question": "Did the EU fine Apple more than €1B in 2025?",
+        "predicted_yes_prob": 0.67,
+        "realized_yes": 1,
+        "category": "Macro / Regulation"
+      },
+      {
+        "question": "Was the U.S. in recession by Q4 2025?",
+        "predicted_yes_prob": 0.35,
+        "realized_yes": 0,
+        "category": "Macro / Regulation"
+      },
+      {
+        "question": "Did DOJ force a Google ad-tech divestiture by the end of 2025?",
+        "predicted_yes_prob": 0.42,
+        "realized_yes": 0,
+        "category": "Macro / Regulation"
+      }
+    ]
+  },
+  "case_studies": [
+    {
+      "question": "Will OpenAI publicly launch GPT-5 before October 1, 2026?",
+      "category": "AI / Technology",
+      "probability": 0.71,
+      "one_day_price_change": 0.04,
+      "one_week_price_change": 0.14,
+      "summary": "Will OpenAI publicly launch GPT-5 before October 1, 2026? is classified as AI / Technology. The market implies 71.0% for Yes, with moves of +4.0pp over 1 day and +14.0pp over 1 week. It matters for business research because it captures technology adoption, AI competition, or semiconductor demand; matched cues include ai, openai, gpt.",
+      "why_it_matters": "Marked as business-relevant because it tracks AI or technology developments with likely implications for capex, competition, or platform strategy, including ai, openai, gpt, model.",
+      "linked_news": [
+        {
+          "title": "Enterprise buyers accelerate spending plans ahead of next-generation foundation models",
+          "url": "https://example.com/news/openai-enterprise-buyers",
+          "source": "Example Business Desk",
+          "published_at": "2026-04-20T09:00:00Z"
+        },
+        {
+          "title": "Cloud providers prepare capacity upgrades as model launch expectations rise",
+          "url": "https://example.com/news/cloud-capacity-upgrades",
+          "source": "Example Tech Wire",
+          "published_at": "2026-04-19T15:30:00Z"
+        }
+      ]
+    },
+    {
+      "question": "Will U.S. spot Bitcoin ETF net inflows exceed $50B in 2026?",
+      "category": "Business / Finance",
+      "probability": 0.49,
+      "one_day_price_change": 0.05,
+      "one_week_price_change": 0.12,
+      "summary": "Will U.S. spot Bitcoin ETF net inflows exceed $50B in 2026? is classified as Business / Finance. The market implies 49.0% for Yes, with moves of +5.0pp over 1 day and +12.0pp over 1 week. It matters for business research because it captures firm value, investor sentiment, or operating performance; matched cues include etf, bitcoin.",
+      "why_it_matters": "Marked as business-relevant because it references company, asset-price, or corporate-performance signals such as etf, bitcoin.",
+      "linked_news": [
+        {
+          "title": "Institutional allocators revisit digital-asset exposure after ETF inflow rebound",
+          "url": "https://example.com/news/etf-inflow-rebound",
+          "source": "Example Digital Assets",
+          "published_at": "2026-04-22T07:40:00Z"
+        },
+        {
+          "title": "Wealth platforms expand Bitcoin ETF access as product demand broadens",
+          "url": "https://example.com/news/wealth-platform-bitcoin-etf",
+          "source": "Example Asset Management",
+          "published_at": "2026-04-18T14:10:00Z"
+        }
+      ]
+    },
+    {
+      "question": "Will Nvidia close above $150 on June 30, 2026?",
+      "category": "Business / Finance",
+      "probability": 0.64,
+      "one_day_price_change": 0.03,
+      "one_week_price_change": 0.11,
+      "summary": "Will Nvidia close above $150 on June 30, 2026? is classified as Business / Finance. The market implies 64.0% for Yes, with moves of +3.0pp over 1 day and +11.0pp over 1 week. It matters for business research because it captures firm value, investor sentiment, or operating performance; matched cues include stock, nvidia.",
+      "why_it_matters": "Marked as business-relevant because it references company, asset-price, or corporate-performance signals such as stock, nvidia.",
+      "linked_news": [
+        {
+          "title": "AI infrastructure capex outlook boosts semiconductor revenue expectations",
+          "url": "https://example.com/news/ai-capex-semiconductors",
+          "source": "Example Markets",
+          "published_at": "2026-04-21T11:00:00Z"
+        },
+        {
+          "title": "Major hyperscalers guide to higher GPU deployment in second half of 2026",
+          "url": "https://example.com/news/hyperscaler-gpu-deployment",
+          "source": "Example Technology Journal",
+          "published_at": "2026-04-18T08:20:00Z"
+        }
+      ]
+    }
+  ],
+  "research_takeaways": [
+    "15 of 20 markets (75.0%) were identified as business-relevant.",
+    "The largest relevant bucket was Macro / Regulation with 8 markets, suggesting the pipeline can separate corporate, AI, and policy themes.",
+    "Among 6 resolved binary markets, the prototype produced directional accuracy of 100.0% and a Brier score of 0.116.",
+    "The biggest active mover was 'Will OpenAI publicly launch GPT-5 before October 1, 2026?', which supports RQ3 by surfacing markets where sharp price changes deserve news-based case-study follow-up."
+  ],
+  "news_digest": [
+    {
+      "market_id": "mkt_openai_gpt5_2026",
+      "question": "Will OpenAI publicly launch GPT-5 before October 1, 2026?",
+      "category": "AI / Technology",
+      "query": "(\"OpenAI\" OR \"GPT-5\" OR \"Gpt\")",
+      "source": "fixture",
+      "digest": "Recent coverage is centered on: Enterprise buyers accelerate spending plans ahead of next-generation foundation models Also notable: Cloud providers prepare capacity upgrades as model launch expectations rise",
+      "articles": [
+        {
+          "title": "Enterprise buyers accelerate spending plans ahead of next-generation foundation models",
+          "url": "https://example.com/news/openai-enterprise-buyers",
+          "source": "Example Business Desk",
+          "published_at": "2026-04-20T09:00:00Z"
+        },
+        {
+          "title": "Cloud providers prepare capacity upgrades as model launch expectations rise",
+          "url": "https://example.com/news/cloud-capacity-upgrades",
+          "source": "Example Tech Wire",
+          "published_at": "2026-04-19T15:30:00Z"
+        }
+      ]
+    },
+    {
+      "market_id": "mkt_btc_etf_inflows_2026",
+      "question": "Will U.S. spot Bitcoin ETF net inflows exceed $50B in 2026?",
+      "category": "Business / Finance",
+      "query": "(\"Bitcoin ETF\" OR \"Bitcoin\" OR \"ETF\")",
+      "source": "fixture",
+      "digest": "Recent coverage is centered on: Institutional allocators revisit digital-asset exposure after ETF inflow rebound Also notable: Wealth platforms expand Bitcoin ETF access as product demand broadens",
+      "articles": [
+        {
+          "title": "Institutional allocators revisit digital-asset exposure after ETF inflow rebound",
+          "url": "https://example.com/news/etf-inflow-rebound",
+          "source": "Example Digital Assets",
+          "published_at": "2026-04-22T07:40:00Z"
+        },
+        {
+          "title": "Wealth platforms expand Bitcoin ETF access as product demand broadens",
+          "url": "https://example.com/news/wealth-platform-bitcoin-etf",
+          "source": "Example Asset Management",
+          "published_at": "2026-04-18T14:10:00Z"
+        }
+      ]
+    },
+    {
+      "market_id": "mkt_nvda_150_2026",
+      "question": "Will Nvidia close above $150 on June 30, 2026?",
+      "category": "Business / Finance",
+      "query": "(\"Nvidia\")",
+      "source": "fixture",
+      "digest": "Recent coverage is centered on: AI infrastructure capex outlook boosts semiconductor revenue expectations Also notable: Major hyperscalers guide to higher GPU deployment in second half of 2026",
+      "articles": [
+        {
+          "title": "AI infrastructure capex outlook boosts semiconductor revenue expectations",
+          "url": "https://example.com/news/ai-capex-semiconductors",
+          "source": "Example Markets",
+          "published_at": "2026-04-21T11:00:00Z"
+        },
+        {
+          "title": "Major hyperscalers guide to higher GPU deployment in second half of 2026",
+          "url": "https://example.com/news/hyperscaler-gpu-deployment",
+          "source": "Example Technology Journal",
+          "published_at": "2026-04-18T08:20:00Z"
+        }
+      ]
+    },
+    {
+      "market_id": "mkt_export_controls_2026",
+      "question": "Will the U.S. expand AI chip export controls before the end of 2026?",
+      "category": "Macro / Regulation",
+      "query": "(\"export controls\" OR \"AI chips\" OR \"Chips\")",
+      "source": "fixture",
+      "digest": "Recent coverage is centered on: Washington weighs tighter AI chip export rules as supply-chain risks deepen Also notable: Semiconductor firms model revenue exposure under broader export restrictions",
+      "articles": [
+        {
+          "title": "Washington weighs tighter AI chip export rules as supply-chain risks deepen",
+          "url": "https://example.com/news/ai-chip-export-rules",
+          "source": "Example Policy Monitor",
+          "published_at": "2026-04-17T12:10:00Z"
+        },
+        {
+          "title": "Semiconductor firms model revenue exposure under broader export restrictions",
+          "url": "https://example.com/news/chip-firms-export-exposure",
+          "source": "Example Industry Journal",
+          "published_at": "2026-04-16T10:05:00Z"
+        }
+      ]
+    }
+  ]
+}
