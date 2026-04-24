@@ -1,0 +1,109 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+
+\linespread{1.15}
+\title{\textbf{AI-Enhanced Business Event Forecasting Using Polymarket}}
+\author{Cheng Peng \\and Mingxia Li}
+\date{}
+
+\begin{document}
+\maketitle
+
+\noindent\textit{Note: this paper was generated from the bundled synthetic fixture dataset because the current environment could not access live Polymarket data.}\\
+
+\section{Introduction}
+
+This paper presents an AI-enhanced business research prototype that uses Polymarket-style prediction market data to identify, classify, summarize, and interpret business-relevant event expectations. The motivation is that firms, investors, and analysts often need forward-looking signals that update more quickly than conventional analyst reports, disclosures, or survey measures.
+
+\section{Project Objective}
+
+The objective is to evaluate whether AI can improve the usefulness of Polymarket probabilities for business research by automatically filtering relevant markets, producing structured summaries, linking large probability changes to contemporaneous news, and generating research-ready outputs.
+
+\section{Data and System Design}
+
+The implemented pipeline has four layers: market ingestion, AI-assisted enrichment, descriptive and resolved-market analysis, and output generation. In this run, the source mode was \texttt{fixture}. The dataset contained 20 markets, of which 15 were classified as business-relevant.
+
+The system supports two enrichment paths:
+\begin{itemize}
+\item a heuristic classifier that works without external model access;
+\item a real OpenAI Responses API mode that can produce structured JSON labels and summaries when \texttt{OPENAI\_API\_KEY} is configured.
+\end{itemize}
+
+\section{Descriptive Findings}
+
+The analysis found that 75.0\% of markets were business-relevant. Among active relevant markets, the average absolute one-day move was +2.1pp, while the average absolute one-week move was +8.4pp. The average relevance score was 0.7711.
+
+\subsection{Category Distribution}
+
+\begin{itemize}
+\item Macro / Regulation: 8 markets
+\item Business / Finance: 6 markets
+\item AI / Technology: 1 markets
+\end{itemize}
+
+\subsection{Top Relevant Active Markets}
+
+\begin{itemize}
+\item \textbf{Will OpenAI publicly launch GPT-5 before October 1, 2026?} (AI / Technology); implied probability 71.0\%; 1-week move +14.0pp.
+\item \textbf{Will the Fed cut rates by September 2026?} (Macro / Regulation); implied probability 57.0\%; 1-week move +8.0pp.
+\item \textbf{Will the FTC block a major Big Tech acquisition in 2026?} (Macro / Regulation); implied probability 52.0\%; 1-week move +5.0pp.
+\item \textbf{Will the U.S. expand AI chip export controls before the end of 2026?} (Macro / Regulation); implied probability 62.0\%; 1-week move +9.0pp.
+\item \textbf{Will Apple reach a \$4 trillion market cap by December 31, 2026?} (Business / Finance); implied probability 46.0\%; 1-week move +6.0pp.
+\end{itemize}
+
+\section{Research Question Assessment}
+
+\subsection{RQ1: Forward-Looking Signal Value}
+
+The resolved-market evaluation included 6 binary business-related markets. The prototype produced directional accuracy of 100.0\% and a Brier score of 0.1156. These results suggest that prediction-market probabilities can contain useful forward-looking information, although the current setting remains exploratory and sample-limited.
+
+\subsection{RQ2: AI-Assisted Interpretability}
+
+The project demonstrates that an AI pipeline can organize raw market questions into business, AI/technology, and macro/regulation categories while generating short explanations of business relevance. This substantially improves interpretability relative to raw market titles alone and makes the output more useful for research purposes.
+
+\subsection{RQ3: Probability Changes and News Developments}
+
+The system identifies high-movement markets and attaches linked news context when available. While this does not establish causal effects, it creates a practical screening workflow for case-study analysis and event-study style follow-up.
+
+\section{News-Linked Context}
+
+\begin{itemize}
+\item \textbf{Will OpenAI publicly launch GPT-5 before October 1, 2026?} (AI / Technology). Recent coverage is centered on: Enterprise buyers accelerate spending plans ahead of next-generation foundation models Also notable: Cloud providers prepare capacity upgrades as model launch expectations rise Related coverage included Enterprise buyers accelerate spending plans ahead of next-generation foundation models [Example Business Desk]; Cloud providers prepare capacity upgrades as model launch expectations rise [Example Tech Wire].
+\item \textbf{Will U.S. spot Bitcoin ETF net inflows exceed \$50B in 2026?} (Business / Finance). Recent coverage is centered on: Institutional allocators revisit digital-asset exposure after ETF inflow rebound Also notable: Wealth platforms expand Bitcoin ETF access as product demand broadens Related coverage included Institutional allocators revisit digital-asset exposure after ETF inflow rebound [Example Digital Assets]; Wealth platforms expand Bitcoin ETF access as product demand broadens [Example Asset Management].
+\item \textbf{Will Nvidia close above \$150 on June 30, 2026?} (Business / Finance). Recent coverage is centered on: AI infrastructure capex outlook boosts semiconductor revenue expectations Also notable: Major hyperscalers guide to higher GPU deployment in second half of 2026 Related coverage included AI infrastructure capex outlook boosts semiconductor revenue expectations [Example Markets]; Major hyperscalers guide to higher GPU deployment in second half of 2026 [Example Technology Journal].
+\item \textbf{Will the U.S. expand AI chip export controls before the end of 2026?} (Macro / Regulation). Recent coverage is centered on: Washington weighs tighter AI chip export rules as supply-chain risks deepen Also notable: Semiconductor firms model revenue exposure under broader export restrictions Related coverage included Washington weighs tighter AI chip export rules as supply-chain risks deepen [Example Policy Monitor]; Semiconductor firms model revenue exposure under broader export restrictions [Example Industry Journal].
+\end{itemize}
+
+\section{Case Studies}
+
+\begin{itemize}
+\item \textbf{Will OpenAI publicly launch GPT-5 before October 1, 2026?}. Current probability: 71.0\%; 1-day move: +4.0pp; 1-week move: +14.0pp. Will OpenAI publicly launch GPT-5 before October 1, 2026? is classified as AI / Technology. The market implies 71.0\% for Yes, with moves of +4.0pp over 1 day and +14.0pp over 1 week. It matters for business research because it captures technology adoption, AI competition, or semiconductor demand; matched cues include ai, openai, gpt.
+\item \textbf{Will U.S. spot Bitcoin ETF net inflows exceed \$50B in 2026?}. Current probability: 49.0\%; 1-day move: +5.0pp; 1-week move: +12.0pp. Will U.S. spot Bitcoin ETF net inflows exceed \$50B in 2026? is classified as Business / Finance. The market implies 49.0\% for Yes, with moves of +5.0pp over 1 day and +12.0pp over 1 week. It matters for business research because it captures firm value, investor sentiment, or operating performance; matched cues include etf, bitcoin.
+\item \textbf{Will Nvidia close above \$150 on June 30, 2026?}. Current probability: 64.0\%; 1-day move: +3.0pp; 1-week move: +11.0pp. Will Nvidia close above \$150 on June 30, 2026? is classified as Business / Finance. The market implies 64.0\% for Yes, with moves of +3.0pp over 1 day and +11.0pp over 1 week. It matters for business research because it captures firm value, investor sentiment, or operating performance; matched cues include stock, nvidia.
+\end{itemize}
+
+\section{Main Takeaways}
+
+\begin{itemize}
+\item 15 of 20 markets (75.0\%) were identified as business-relevant.
+\item The largest relevant bucket was Macro / Regulation with 8 markets, suggesting the pipeline can separate corporate, AI, and policy themes.
+\item Among 6 resolved binary markets, the prototype produced directional accuracy of 100.0\% and a Brier score of 0.116.
+\item The biggest active mover was 'Will OpenAI publicly launch GPT-5 before October 1, 2026?', which supports RQ3 by surfacing markets where sharp price changes deserve news-based case-study follow-up.
+\end{itemize}
+
+\section{Limitations}
+
+\begin{itemize}
+\item Prediction market prices reflect collective beliefs and incentives, not guaranteed objective probabilities.
+\item Some markets may be illiquid or noisy.
+\item The current evaluation is descriptive rather than causal.
+\item When live access is blocked, the workflow falls back to synthetic fixtures for demonstration.
+\item News linkage is supportive context rather than proof of a direct causal driver.
+\end{itemize}
+
+\section{Conclusion}
+
+Overall, the project delivers a feasible and replicable proof of concept for AI-enhanced business event forecasting with Polymarket-style data. It integrates market collection, business filtering, summary generation, descriptive analytics, resolved-market evaluation, news-assisted case studies, and paper-ready output generation in one workflow.
+
+\end{document}
